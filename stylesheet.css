@@ -13,22 +13,21 @@
   grid-column-start: 1;
   grid-column-end: 4;
   background-color: #be7d03;
-  text-align:center;
-  
+  text-align: center;
 }
 .logo {
   grid-row-start: 1;
   grid-row-end: 2;
   grid-column-start: 1;
   grid-column-end: 2;
-  z-index:2;
-  text-align:center;
-  margin-top:1em;
+  z-index: 2;
+  text-align: center;
+  margin-top: 1em;
 }
 #logo {
   border-radius: 50%;
-  border:black;
-  border-style:solid;
+  border: black;
+  border-style: solid;
 }
 .earsTop {
   grid-column-start: 2;
@@ -37,7 +36,7 @@
   grid-row-end: 2;
   background-color: rgb(12, 7, 78);
   background-image: url("images/spacertop.png");
-  background-repeat:repeat-x;
+  background-repeat: repeat-x;
 }
 .earsBottom {
   grid-column-start: 2;
@@ -46,23 +45,22 @@
   grid-row-end: 4;
   background-color: rgb(12, 7, 78);
   background-image: url("images/spacer.png");
-  background-repeat:repeat-x;
+  background-repeat: repeat-x;
 }
 
 .sidebar {
-  
-  grid-column:1;
+  grid-column: 1;
   grid-row-start: 2;
   grid-row-end: 5;
   color: white;
   background-color: rgb(252, 182, 54);
   min-width: fit-content;
-  text-align:center;
+  text-align: center;
 }
 .menuContent {
   margin-top: 4em;
   display: inline-block;
-  text-align:left;
+  text-align: left;
 }
 .contentBody {
   background-color: #ffffff;
@@ -74,16 +72,15 @@
 .content {
   z-index: 2;
   background-color: blue;
-  display: grid; 
+  display: grid;
   margin: 1em;
   border-radius: 1em;
 }
 
 /* Här formateras sidans visade innehåll */
 .pageContent {
-  margin-left:1em;
+  margin-left: 1em;
 }
-
 
 .footer {
   background-color: #f37500;
@@ -91,23 +88,139 @@
   grid-column-end: 4;
   grid-row-start: 5;
   grid-row-end: 5;
+  text-align: center;
+  display: inline-block;
+  contain: content;
 }
-html, body {
+html,
+body {
   font-size: 22px;
   font-family: "Times New Roman", Times, serif;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
-.h1, a {
+.h1,
+a {
   color: black;
   font: bold;
 }
 a:hover {
-  color:blue;
+  color: blue;
 }
 #oldies {
   border-radius: 30%;
-  border:black;
-  border-style:solid;
+  border: black;
+  border-style: solid;
+}
+.p {
+  padding: 0;
+  margin: 0;
+}
+.footertemplate {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 5;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-columns: max-content;
+  background-color: red;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+.footergrid1 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  z-index: 2;
+  background-color: orange;
+  contain: content;
+  display: grid;
+}
+.imagecontainerfooter {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 50%;
+  display: grid;
+}
+#footerimage {
+  height: 100%;
+  width: 100%;
+}
+.image1 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  height: 50px;
+  width: 50px;
+  content: contain;
+  background-color: green;
+  margin-left: auto;
+  margin-right: 10px;
+}
+.image2 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  height: 50px;
+  width: 50px;
+  float: right;
+  content: contain;
+  background-color: Red;
+  margin: auto;
+  margin-left: 10px;
+}
+
+.image3 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  height: 50px;
+  width: 50px;
+  content: contain;
+  margin: auto;
+  margin-right: 10px;
+}
+.image4 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  height: 50px;
+  width: 50px;
+  content: contain;
+  margin: auto;
+  margin-left: 10px;
+}
+
+.footergrid2 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  z-index: 2;
+  background-color: grey;
+}
+.footergrid3 {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  z-index: 2;
+  background-color: brown;
+}
+.footergrid4 {
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  z-index: 2;
+  background-color: turquoise;
 }
