@@ -40,17 +40,38 @@
             <div class="content">
                 <div class="pageContent">
                     <!-- Här är innehållet på sidan-->
-                    <h2>Välkommen till Kigurumi Lågstadieskola</h2>
-                    <p>Här är en kort text om skolan</p>
-                    <img id="oldies" src="../images/oldies.png">
-                    <img id="oldies" src="../images/oldies.png">
-                    <img id="oldies" src="../images/oldies.png">
-                    <img id="oldies" src="../images/oldies.png">
-                    <img id="oldies" src="../images/oldies.png">
-                    <img id="oldies" src="../images/oldies.png">
-                    <img id="oldies" src="../images/oldies.png">
+                    <h2>Antagningsansökan för nästa skoltermin</h2>
+                    <p>Här anmäler du intresse för att ditt barn ska bli elev på Kigurumi Lågstadieskola.</p>
+                    <p>Vi på skolan samlar på oss ansökningar inför kommande skoltermin och hör av oss genom e-post till er strax innan det börjar bli dags för skolval för att boka vidare intervju.</p>
+                    <p>Eftersom att Kigurumi Lågstadieskola är en mindre, mer personlig skola så tar vi inte emot allt för många elever vid varje terminstart.</p>
+                    <p>Det är därför viktigt att du kommunicerar och uttrycker dig väl i beskrivningen av ditt barn samt dig själv som förälder i ansökningen. </p>
+                    
+                    <form>
+                        
+                        <label for="firstrow">Beskriv ditt barn och vad hen skulle tillföra till skolans unika miljö:</label><br>
+                        <textarea id="childdescription"></textarea><br><br>
+                        <label for="secondrow">Beskriv dig själv som förälder och varför du anser att Kigurumi Lågstadieskola är rätt plats för ditt barn:</label><br>
+                        <textarea id="parentdescription"></textarea><br><br>
+                        <label for="thirdrow">Ditt namn:</label><br>
+                        <input type="text" id="name" name="name" value=""><br><br>
+                        <label for="fourthrow">Barnets namn:</label><br>
+                        <input type="text" id="childName" name="childName" value=""><br><br>
+                        <label for="fifthrow">Barnets födelseår:</label><br>
+                        <select id="birthyear" name="birthyear">
+                            <option value="y2014">2014</option>
+                            <option value="y2015">2015</option>
+                            <option value="y2016">2016</option>
+                            <option value="y2017">2017</option>
+                            <option value="y2018">2018</option>
+                            <option value="y2019">2019</option>
+                        </select><br><br>
+                        <label for="sixthrow">Län där du och barnet är skrivna:</label><br>
+                        <input type="text" id="region" name="region" value=""><br><br>
+                        <label for="seventhrow">E-postadress:</label><br>
+                        <input type="text" id="email" name="email" value=""><br><br>
+                        <input type="submit" id="sendform" value="Skicka"> 
+                    </form>
                 </div>
-
                 
             </div>
         </div>
