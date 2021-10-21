@@ -75,6 +75,25 @@
   
 }
 
+
+
+.content {
+  z-index: 2;
+  background-color: #ffe8ad;
+  
+  margin: 1em;
+  border-radius: 1em;
+  contain:content;
+  margin-right: 25%;
+  
+}
+
+/* Här formateras sidans visade innehåll */
+.pageContent {
+  margin: 1em;
+  text-align:center;
+ 
+}
 /* Scrollbar */
 
 /* width */
@@ -97,24 +116,6 @@
 ::-webkit-scrollbar-thumb:hover {
   background:  #e57b1d;
 }
-
-.content {
-  z-index: 2;
-  background-color: #ffe8ad;
-  display: grid;
-  margin: 1em;
-  border-radius: 1em;
-  contain:content;
-  margin-right: 25%;
-}
-
-/* Här formateras sidans visade innehåll */
-.pageContent {
-  margin-left: 1em;
-  text-align:center;
-  
-}
-
 .footer {
   background-color: #b05a0d;
   grid-column-start: 1;
