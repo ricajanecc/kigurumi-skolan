@@ -2,9 +2,9 @@
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
   grid-template-rows: 10% 5% 70% 5% 10%;
-  background-color: #8b9dc3;
+  background-color: black;
   height: 100vh;
-  overflow-y: scroll;
+  
 }
 .header {
   /* antal rows = 5, antal columns = 3 */
@@ -12,7 +12,7 @@
   grid-row-end: 1;
   grid-column-start: 1;
   grid-column-end: 4;
-  background-color: #be7d03;
+  background-color: #f49948;
   text-align: center;
 }
 .logo {
@@ -34,7 +34,7 @@
   grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: 2;
-  background-color: rgb(12, 7, 78);
+  background-color: #f49948;
   background-image: url("images/spacertop.png");
   background-repeat: repeat-x;
 }
@@ -43,47 +43,80 @@
   grid-column-end: 4;
   grid-row-start: 4;
   grid-row-end: 4;
-  background-color: rgb(12, 7, 78);
+  background-color: #ffb26e;
   background-image: url("images/spacer.png");
   background-repeat: repeat-x;
 }
 
 .sidebar {
   grid-column: 1;
-  grid-row-start: 2;
+  grid-row-start: 1;
   grid-row-end: 5;
   color: white;
-  background-color: rgb(252, 182, 54);
+  background-color: #e57b1d;
   min-width: fit-content;
   text-align: center;
 }
 .menuContent {
-  margin-top: 4em;
+  margin-top: 10em;
   display: inline-block;
   text-align: left;
 }
 .contentBody {
-  background-color: #ffffff;
+  background-color: #ffb26e;
   grid-row-start: 3;
   grid-row-end: 3;
-  grid-column: 2;
+  grid-column-start: 2;
+  grid-column-end:4;
   color: black;
+  contain:content;
+  overflow-y:auto;
+  z-index:2;
+  
 }
+
+/* Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+  
+}
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #b05a0d; 
+  border-radius: 10px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:  #e57b1d;
+}
+
 .content {
   z-index: 2;
-  background-color: blue;
+  background-color: #ffe8ad;
   display: grid;
   margin: 1em;
   border-radius: 1em;
+  contain:content;
+  margin-right: 25%;
 }
 
 /* Här formateras sidans visade innehåll */
 .pageContent {
   margin-left: 1em;
+  text-align:center;
+  
 }
 
 .footer {
-  background-color: #f37500;
+  background-color: #b05a0d;
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 5;
@@ -123,9 +156,9 @@ a:hover {
   grid-column-end: 4;
   grid-row-start: 5;
   grid-row-end: 5;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-auto-columns: max-content;
-  background-color: red;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -137,7 +170,6 @@ a:hover {
   grid-row-start: 1;
   grid-row-end: 4;
   z-index: 2;
-  background-color: orange;
   contain: content;
   display: grid;
 }
@@ -146,10 +178,12 @@ a:hover {
   grid-template-rows: 1fr 1fr;
   height: 50%;
   display: grid;
+  
 }
 #footerimage {
   height: 100%;
   width: 100%;
+  
 }
 .image1 {
   grid-column-start: 1;
@@ -159,9 +193,7 @@ a:hover {
   height: 50px;
   width: 50px;
   content: contain;
-  background-color: green;
-  margin-left: auto;
-  margin-right: 10px;
+  margin: auto 10px auto auto;
 }
 .image2 {
   grid-column-start: 2;
@@ -172,9 +204,7 @@ a:hover {
   width: 50px;
   float: right;
   content: contain;
-  background-color: Red;
-  margin: auto;
-  margin-left: 10px;
+  margin: auto auto auto 10px;
 }
 
 .image3 {
@@ -185,8 +215,7 @@ a:hover {
   height: 50px;
   width: 50px;
   content: contain;
-  margin: auto;
-  margin-right: 10px;
+  margin: auto 10px auto auto;
 }
 .image4 {
   grid-column-start: 2;
@@ -196,17 +225,15 @@ a:hover {
   height: 50px;
   width: 50px;
   content: contain;
-  margin: auto;
-  margin-left: 10px;
+  margin: auto auto auto 10px;
 }
 
 .footergrid2 {
-  grid-column-start: 2;
-  grid-column-end: 2;
+  grid-column-start: 3;
+  grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 4;
   z-index: 2;
-  background-color: grey;
 }
 .footergrid3 {
   grid-column-start: 3;
@@ -214,7 +241,6 @@ a:hover {
   grid-row-start: 1;
   grid-row-end: 4;
   z-index: 2;
-  background-color: brown;
 }
 .footergrid4 {
   grid-column-start: 4;
@@ -222,5 +248,4 @@ a:hover {
   grid-row-start: 1;
   grid-row-end: 4;
   z-index: 2;
-  background-color: turquoise;
 }

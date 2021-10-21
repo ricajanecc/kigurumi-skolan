@@ -40,9 +40,34 @@
             <div class="content">
                 <div class="pageContent">
                     <!-- Här är innehållet på sidan-->
-                    <h2>Välkommen till Kigurumi Lågstadieskola</h2>
-                    <p>Här är en kort text om skolan</p>
-                    <img id="oldies" src="../images/oldies.png">  
+                    <h2>Kontaktformulär</h2>
+                    
+                    <form>
+                        <label for="firstrow">Anledning till kontakt</label><br>
+                        <select id="reason" name="reason">
+                            <option value="first">Allmänna frågor</option>
+                            <option value="second">Allmänna frågor</option>
+                            <option value="third">Allmänna frågor</option>
+                            <option value="fourth">Allmänna frågor</option>
+                        </select>
+                        <br><br><br>
+                        <label for="firstradio">Allmänna frågor</label>
+                        <input type="radio" id="firstradio" name="radio" value="first"><br>
+                        <label for="secondradio">Sjuk- och frånvaroanmälan</label>
+                        <input type="radio" id="secondradio" name="radio" value="second"><br>
+                        <label for="thirdradio">Extra stöd</label>
+                        <input type="radio" id="thirdradio" name="radio" value="third"><br>
+                        <label for="fourthradio">Utvecklingssamtal</label>
+                        <input type="radio" id="fourthradio" name="radio" value="fourth"><br><br>
+                        <label for="secondrow">Meddelande</label><br>
+                        <input type="text" id="message" name="message" value="Skriv ditt meddelande här..."><br>
+                        <label for="secondrow">Namn</label><br>
+                        <input type="text" id="name" name="name" value="Skriv ditt och barnets namn här..."><br>
+                        <input type="submit" value="Skicka"> 
+
+                    </form>
+
+
                 </div>
                 
                 
@@ -52,7 +77,22 @@
             
             
         </div>
-        <div class="footer">footer</div>
+        <div class="footer">
+             <!--       <label for="firstrow">Första radens etikett.</label>
+                        <input type="text" id="firstrow" name="firstrow" value="Första raden"><br>
+                        <label for="secondrow">Andra radens etikett.</label>
+                        <input type="text" id="secondrow" name="secondrow" value="Andra raden"><br>
+                        <label for="firstbox">Första kryssrutan</label>
+                        <input type="checkbox" id="firstbox" name="firstbox" checked><br>
+                        <label for="secondbox">Andra kryssrutan</label>
+                        <input type="checkbox" id="secondbox" name="secondbox"><br>
+                        <label for="firstradio">Första radioknappen</label>
+                        <input type="radio" id="firstradio" name="radio" value="first"><br>
+                        <label for="secondradio">Andra radioknappen</label>
+                        <input type="radio" id="secondradio" name="radio" value="second"><br>
+                        <input type="submit" value="Skicka"> 
+                    -->
+        </div>
     </div>
 
 </body>
