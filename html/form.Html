@@ -12,22 +12,22 @@
 <body>
     <div class="grid">
         <div class="logo">
-            <img id="logo" src="../images/logo.png">  
+            <a href="../index.html"><img id="logo" src="../images/logo.png"></a>
         </div>
         <div class="header">
-            
             <h1>Kigurumi Lågstadieskola</h1>
         </div>
         <div class="earsTop"></div>
         <div class="sidebar">
-            
+
             <div class="menuContent">
-                  
-                <a href="../index.html">Hem</a><br><br>
+                <a href="news.html">Aktuellt</a><br><br>
                 <a href="school.html">Vår Skola</a><br><br>
                 <a href="parents.html">För föräldrarna</a><br><br>
                 <a href="employees.html">För Anställda</a><br><br>
                 <a href="contact.html">Kontakt</a><br><br>
+                <!-- Här är formatet för undermenyer -->
+                <!-- Dessa ska endast synas när man är inne på övermeny, eller nedan val -->
                 <ul>
                     <li><a href="form.html">Kontaktformulär</a></li>
                     <li><a href="personnel.html">Kontakta personal</a></li>
@@ -43,55 +43,69 @@
                     <h2>Kontaktformulär</h2>
                     
                     <form>
-                        <label for="firstrow">Anledning till kontakt</label><br>
+                        <label for="firstrow">Anledning till kontakt:</label>
                         <select id="reason" name="reason">
                             <option value="first">Allmänna frågor</option>
-                            <option value="second">Allmänna frågor</option>
-                            <option value="third">Allmänna frågor</option>
-                            <option value="fourth">Allmänna frågor</option>
+                            <option value="second">Sjukanmälan</option>
+                            <option value="second">Frånvaroanmälan</option>
+                            <option value="third">Extra stöd</option>
+                            <option value="fourth">Utvecklingssamtal</option>
                         </select>
-                        <br><br><br>
-                        <label for="firstradio">Allmänna frågor</label>
-                        <input type="radio" id="firstradio" name="radio" value="first"><br>
-                        <label for="secondradio">Sjuk- och frånvaroanmälan</label>
-                        <input type="radio" id="secondradio" name="radio" value="second"><br>
-                        <label for="thirdradio">Extra stöd</label>
-                        <input type="radio" id="thirdradio" name="radio" value="third"><br>
-                        <label for="fourthradio">Utvecklingssamtal</label>
-                        <input type="radio" id="fourthradio" name="radio" value="fourth"><br><br>
-                        <label for="secondrow">Meddelande</label><br>
-                        <input type="text" id="message" name="message" value="Skriv ditt meddelande här..."><br>
-                        <label for="secondrow">Namn</label><br>
-                        <input type="text" id="name" name="name" value="Skriv ditt och barnets namn här..."><br>
+                        <br>
+                        <label for="secondrow">Meddelande:</label>
+                        <input type="text" id="message" name="message" value=""><br>
+                        <label for="secondrow">Ditt namn:</label>
+                        <input type="text" id="name" name="name" value=""><br>
+                        <label for="secondrow">Barnets namn:</label>
+                        <input type="text" id="childName" name="childName" value=""><br>
+                        <label for="secondrow">E-postadress:</label>
+                        <input type="text" id="email" name="email" value=""><br>
                         <input type="submit" value="Skicka"> 
-
-                    </form>
-
-
                 </div>
-                
+
                 
             </div>
         </div>
         <div class="earsBottom">
-            
-            
+
+
         </div>
         <div class="footer">
-             <!--       <label for="firstrow">Första radens etikett.</label>
-                        <input type="text" id="firstrow" name="firstrow" value="Första raden"><br>
-                        <label for="secondrow">Andra radens etikett.</label>
-                        <input type="text" id="secondrow" name="secondrow" value="Andra raden"><br>
-                        <label for="firstbox">Första kryssrutan</label>
-                        <input type="checkbox" id="firstbox" name="firstbox" checked><br>
-                        <label for="secondbox">Andra kryssrutan</label>
-                        <input type="checkbox" id="secondbox" name="secondbox"><br>
-                        <label for="firstradio">Första radioknappen</label>
-                        <input type="radio" id="firstradio" name="radio" value="first"><br>
-                        <label for="secondradio">Andra radioknappen</label>
-                        <input type="radio" id="secondradio" name="radio" value="second"><br>
-                        <input type="submit" value="Skicka"> 
-                    -->
+            <div class="footertemplate">
+                <div class="footergrid1">
+                    <div class="imagecontainerfooter">
+                        <!-- Länk till kontakt-sidan -->
+                        <div class="image1"><a href="../html/form.Html"><img src="../images/mailicon-transparent.png" alt="mailIcon"
+                                id="footerimage"></a></div>
+                        <!-- !!Länk till Elevhälsan ??  
+                            Ändra mig!
+                        -->
+                        <div class="image2"><a href="../html/contact.Html"><img src="../images/healthicon-transparent.png" alt="healthIcon"
+                                id="footerimage"></a></div>
+                        <!-- Länk till Facebook -->
+                        <div class="image3"><a href="../https://facebook.com"><img src="../images/fbicon.png" alt="fbIcon"
+                                id="footerimage"></a></div>
+                        <!-- Länk till Twitter -->
+                        <div class="image4"><a href="../https://twitter.com"><img src="../images/twittericon-transparent.png" alt="twitterIcon"
+                                id="footerimage"></a></div>
+                    </div>
+                </div>
+                <div class="footergrid2">
+                    <p>Tel: 063-141457</p>
+                    <p>Adress: Djurvägen 3</p>
+                    <p>Epost: Kontakt@KigurumiSkolan.se</p>
+                </div>
+                <div class="footergrid3">
+
+                </div>
+                <div class="footergrid4">
+                    <p>Jour: 112</p>
+                    <p>Rektor: Holger Valross</p>
+                    <p>OrgNummer: EnRelevantSiffra</p>
+                </div>
+            </div>
+
+
         </div>
     </div>
 

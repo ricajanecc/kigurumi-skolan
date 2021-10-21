@@ -250,3 +250,18 @@ a:hover {
   grid-row-end: 4;
   z-index: 2;
 }
+
+/* Formulär */
+form {
+  text-align:left;
+}
+input[type=text], select {
+  width: 100%;
+  
+  border-radius: 4px;
+  
+}
+#message {
+  height: 150px;
+  
+}
