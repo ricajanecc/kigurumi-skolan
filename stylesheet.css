@@ -4,7 +4,6 @@
   grid-template-rows: 10% 5% 70% 5% 10%;
   background-color: black;
   height: 100vh;
-  
 }
 .header {
   /* antal rows = 5, antal columns = 3 */
@@ -67,54 +66,48 @@
   grid-row-start: 3;
   grid-row-end: 3;
   grid-column-start: 2;
-  grid-column-end:4;
+  grid-column-end: 4;
   color: black;
-  contain:content;
-  overflow-y:auto;
-  z-index:2;
-  
+  contain: content;
+  overflow-y: auto;
+  z-index: 2;
 }
-
-
 
 .content {
   z-index: 2;
   background-color: #ffe8ad;
-  
+
   margin: 1em;
   border-radius: 1em;
-  contain:content;
+  contain: content;
   margin-right: 25%;
-  
 }
 
 /* Här formateras sidans visade innehåll */
 .pageContent {
   margin: 1em;
-  text-align:left;
- 
+  text-align: left;
 }
 /* Scrollbar */
 
 /* width */
 ::-webkit-scrollbar {
   width: 20px;
-  
 }
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
+  box-shadow: inset 0 0 5px grey;
   border-radius: 10px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #b05a0d; 
+  background: #b05a0d;
   border-radius: 10px;
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background:  #e57b1d;
+  background: #e57b1d;
 }
 .footer {
   background-color: #b05a0d;
@@ -179,12 +172,10 @@ a:hover {
   grid-template-rows: 1fr 1fr;
   height: 50%;
   display: grid;
-  
 }
 #footerimage {
   height: 100%;
   width: 100%;
-  
 }
 .image1 {
   grid-column-start: 1;
@@ -251,26 +242,32 @@ a:hover {
 
 /* Formulär */
 form {
-  text-align:left;
+  text-align: left;
 }
-input[type=text], select, textarea {
+input[type="text"],
+select,
+textarea {
   width: 90%;
   padding: 12px 20px;
   border: 2px solid #ccc;
-  border-radius: 4px;  
+  border-radius: 4px;
 }
-#message, #childdescription, #parentdescription {
+#message,
+#childdescription,
+#parentdescription {
   height: 150px;
 }
-#reason, #birthyear {
-  width:32%;
-  text-align:left;
+#reason,
+#birthyear {
+  width: 32%;
+  text-align: left;
   font-size: 20px;
 }
 
-#sendform, #addfile  {
-  float:right;
-  margin: 0 7% ; 
+#sendform,
+#addfile {
+  float: right;
+  margin: 0 7%;
 }
 /* Slut på formulär */
 
@@ -281,18 +278,18 @@ input[type=text], select, textarea {
 .personnelContact1 {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  display:grid;
+  display: grid;
 }
 .personnelContact2 {
-  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  display:grid;
+  display: grid;
 }
 #personnelImages {
   width: 250px;
-  height:250px; 
+  height: 250px;
   border: 2px solid black;
-  border-radius:25%;
+  border-radius: 25%;
 }
 #personnelFigure1 {
   grid-column-start: 1;
@@ -334,18 +331,100 @@ input[type=text], select, textarea {
 
 /* Dialas sidor */
 #vår-skola {
-
   float: left;
-
 }
 
 #text-vårskola {
-
   text-align: justify;
 
   padding: 2rem;
-
-
-
-  }
+}
 /* slut på Dialas sidor */
+/* Rojhats kod */
+.covidpicclass {
+  color: #111;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 90px;
+  float: left;
+  shape-outside: ellipse();
+  padding: 10px;
+}
+span {
+  padding-top: 60px;
+  display: inline-block;
+}
+#covidText {
+  word-wrap: normal;
+}
+#covidKidImage {
+  width: 800px;
+  height: 500px;
+  border-radius: 50%;
+}
+#newsHeader {
+  text-align: center;
+} /* Grid template systemet för aktuella sidan */
+.contentgridtemplate {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  contain: content;
+  height: 100%;
+  width: 100%;
+}
+.contentgrid1 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+
+  contain: content;
+  text-align: left;
+}
+.contentgrid2 {
+  grid-row: 2;
+  grid-column-start: 1;
+
+  contain: content;
+}
+.contentgrid3 {
+  grid-row: 2;
+  grid-column-start: 2;
+}
+.contentgrid4 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  contain: content;
+  text-align: left;
+}
+#tänk {
+  text-align: center;
+}
+#matschema {
+  text-align: center;
+}
+.contentgrid5 {
+  z-index: 2;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  border-right: 2px solid;
+}
+/* Bild formatet för aktuella hemsidan */
+#bentobox {
+  align-content: right;
+  border-radius: 20%;
+  height: 200px;
+  width: 400px;
+  margin: 20px auto auto auto;
+}
+#bentobox2 {
+  align-content: right;
+  border-radius: 20%;
+  height: 200px;
+  width: 400px;
+  margin: 20px auto auto auto;
+}
+
+/*Rojhats kod */
