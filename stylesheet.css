@@ -328,3 +328,11 @@ input[type=text], select, textarea {
   grid-row-end: 2;
 }
 /* slut på personnel.html */
+#vår-skola {
+  float: left;
+}
+#text-vårskola {
+  text-align: justify;
+  padding: 2rem;
+
+  }
