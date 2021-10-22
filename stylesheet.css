@@ -328,3 +328,21 @@ input[type=text], select, textarea {
   grid-row-end: 2;
 }
 /* slut på personnel.html */
+
+/* Dialas sidor */
+#vår-skola {
+
+  float: left;
+
+}
+
+#text-vårskola {
+
+  text-align: justify;
+
+  padding: 2rem;
+
+
+
+  }
+/* slut på Dialas sidor */
