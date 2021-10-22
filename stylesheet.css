@@ -275,13 +275,16 @@ input[type=text], select, textarea {
 /* Slut på formulär */
 
 /* personell.html */
+.personnelWrapper {
+  text-align: center;
+}
 .personnelContact1 {
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   display:grid;
 }
 .personnelContact2 {
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr ;
   grid-template-rows: 1fr;
   display:grid;
 }
@@ -310,10 +313,10 @@ input[type=text], select, textarea {
   grid-row-end: 1;
 }
 #personnelFigure4 {
-  grid-column-start: 4;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
 }
 #personnelFigure5 {
   grid-column-start: 2;
