@@ -341,6 +341,9 @@ textarea {
 }
 /* slut på Dialas sidor */
 /* Rojhats kod */
+.textbackgroundFood {
+  background-color: wheat;
+}
 .covidpicclass {
   color: #111;
   border-radius: 50%;
@@ -356,6 +359,11 @@ span {
 }
 #covidText {
   word-wrap: normal;
+}
+#kiguImageFood {
+  width: 800px;
+  height: 500px;
+  margin: auto auto auto 100px;
 }
 #covidKidImage {
   width: 800px;
@@ -378,9 +386,9 @@ span {
   grid-column-end: 1;
   grid-row-start: 1;
   grid-row-end: 1;
+  margin-left: 15px;
 
   contain: content;
-  text-align: left;
 }
 .contentgrid2 {
   grid-row: 2;
@@ -391,6 +399,7 @@ span {
 .contentgrid3 {
   grid-row: 2;
   grid-column-start: 2;
+  contain: content;
 }
 .contentgrid4 {
   grid-column-start: 2;
@@ -411,6 +420,26 @@ span {
   grid-row-end: 3;
   border-right: 2px solid;
 }
+.contentgrid6 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row: 1;
+  contain: content;
+}
+.contentgrid7 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  contain: content;
+  height: 100%;
+}
+#lineLamp {
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-right: 1rem;
+}
+
 /* Bild formatet för aktuella hemsidan */
 #bentobox {
   align-content: right;
