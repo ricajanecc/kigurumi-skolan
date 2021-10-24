@@ -504,3 +504,114 @@ span {
 }
 
 /*Rojhats kod */
+
+/*Ricas kod*/
+
+.info-title {
+  text-align: center;
+  padding: 20px;
+}
+
+.parents-info {
+  display: grid;
+  grid-template-columns:  1fr;
+  grid-template-rows: 1fr auto auto auto;
+  padding: 20px;
+  gap: 3px;
+}
+
+
+.info-details {
+  display: grid;
+  gap: 2px;
+  border: solid 2px;
+  padding: 20px;
+  transition: ease-in-out background-color 300ms;
+}
+
+.info-details:hover {
+  background-color: #E57B1D;
+}
+
+.laroplan-article {
+  display: grid;
+  grid-auto-rows: auto;
+}
+
+.laroplan-title {
+  text-align: center;
+}
+
+.laroplan-img-container {
+  display:grid;
+  align-items:center;
+  justify-items: center;
+}
+
+.laroplan-img {
+  width: 300px;
+  border-radius: 100px;
+}
+
+.laroplan-text {
+  display: grid;
+  
+}
+
+.laroplan-button-container {
+  display: grid;
+  justify-items: center;
+}
+
+.laroplan-button {
+  border: #B05A0D 2px;
+  background-color: #FFC999;
+  color: black;
+  text-decoration: none;
+  margin: 5px 3px;
+  width:200px;
+  height: 50px;
+  cursor: pointer;
+  font-family:'Times New Roman', Times, serif;
+  transition: ease-in-out all 300ms;
+
+}
+.laroplan-button:hover {
+  background-color:#E57B1D;
+  color:white;
+}
+
+.personal-article {
+  display: grid;
+ grid-auto-rows: auto;
+ 
+}
+
+.picture-container {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+
+.personal-picture {
+  width: 350px;
+  border-radius: 50px;
+  
+}
+
+.personal-title {
+  display: grid;
+  text-align: center;
+}
+
+text-container {
+  display: grid;
+  text-align: center;
+}
+
+.personal-text {
+  
+}
+
+/*slut på Ricas kod*/
