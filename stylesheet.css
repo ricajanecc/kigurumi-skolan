@@ -191,7 +191,7 @@ a:active {
   height: 50%;
   display: grid;
 }
-#footerimage {
+.footerimage {
   height: 100%;
   width: 100%;
 }
