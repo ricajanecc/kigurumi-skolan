@@ -1,163 +1,139 @@
 <!DOCTYPE html>
 <html lang="sv">
-  <head>
-    <link rel="stylesheet" href="../stylesheet.css" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
 
-  <body>
-    <div class="grid">
-      <div class="logo">
-        <a href="../index.html"><img id="logo" src="../images/logo.png" /></a>
+<head>
+  <link rel="stylesheet" href="../stylesheet.css" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kigurumi Lågstadieskola</title>
+</head>
+
+<body>
+  <div class="grid">
+    <div class="logo">
+      <a href="../index.html"><img id="logo" src="../images/logo.png" /></a>
+    </div>
+    <div class="header">
+      <h1>Kigurumi Lågstadieskola</h1>
+    </div>
+    <div class="earsTop"></div>
+    <div class="sidebar">
+      <div class="menuContent">
+        <a href="news.html">Aktuellt</a><br /><br />
+        <a href="ourschool.Html">Vår Skola</a><br /><br />
+        <a href="info-parents.Html">För Föräldrarna</a><br /><br />
+        <a href="employees.html">För Anställda</a><br /><br />
+        <a href="contact.html">Kontakt</a><br />
+        <!-- Här är formatet för undermenyer -->
+        <!-- Dessa ska endast synas när man är inne på övermeny, eller nedan val -->
+        <ul>
+          <li><a href="form.html">Kontaktformulär</a></li>
+          <li><a href="personnel.html">Kontakta Personal</a></li>
+          <li><a href="apply.html">Börja På Skolan</a></li>
+          <li><a href="work.html">Jobba På Skolan</a></li>
+        </ul>
       </div>
-      <div class="header">
-        <h1>Kigurumi Lågstadieskola</h1>
-      </div>
-      <div class="earsTop"></div>
-      <div class="sidebar">
-        <div class="menuContent">
-          <a href="news.html">Aktuellt</a><br /><br />
-          <a href="ourschool.Html">Vår Skola</a><br /><br />
-          <a href="info-parents.Html">För föräldrarna</a><br /><br />
-          <a href="employees.html">För Anställda</a><br /><br />
-          <a href="contact.html">Kontakt</a><br />
-          <!-- Här är formatet för undermenyer -->
-          <!-- Dessa ska endast synas när man är inne på övermeny, eller nedan val -->
-          <ul>
-            <li><a href="form.html">Kontaktformulär</a></li>
-            <li><a href="personnel.html">Kontakta personal</a></li>
-            <li><a href="apply.html">Börja på skolan</a></li>
-            <li><a href="work.html">Jobba på skolan</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="contentBody">
-        <div class="content">
-          <div class="pageContent">
-            <!-- Här är innehållet på sidan-->
-            <h2>Antagningsansökan för nästa skoltermin</h2>
-            <p>
-              Här anmäler du intresse för att ditt barn ska bli elev på Kigurumi
-              Lågstadieskola.
-            </p>
-            <p>
-              Vi på skolan samlar på oss ansökningar inför kommande skoltermin
-              och hör av oss genom e-post till er strax innan det börjar bli
-              dags för skolval för att boka vidare intervju.
-            </p>
-            <p>
-              Eftersom att Kigurumi Lågstadieskola är en mindre, mer personlig
-              skola så tar vi inte emot allt för många elever vid varje
-              terminstart.
-            </p>
-            <p>
-              Det är därför viktigt att du kommunicerar och uttrycker dig väl i
-              beskrivningen av ditt barn samt dig själv som förälder i
-              ansökningen.
-            </p>
-            <p>
-              Finner vi att du och ditt barn platsar så går man sedan vidare
-              genom: <a href="https://mittskolval.se/">mittskolval.se.</a>
-            </p>
-            <form>
-              <label for="firstrow"
-                >Beskriv ditt barn och vad hen skulle tillföra till skolans
-                unika miljö:</label
-              ><br />
-              <textarea id="childdescription"></textarea><br /><br />
-              <label for="secondrow"
-                >Beskriv dig själv som förälder och varför du anser att Kigurumi
-                Lågstadieskola är rätt plats för ditt barn:</label
-              ><br />
-              <textarea id="parentdescription"></textarea><br /><br />
-              <label for="thirdrow">Ditt namn:</label><br />
-              <input type="text" id="name" name="name" value="" /><br /><br />
-              <label for="fourthrow">Barnets namn:</label><br />
-              <input
-                type="text"
-                id="childName"
-                name="childName"
-                value=""
-              /><br /><br />
-              <label for="fifthrow">Barnets födelseår:</label><br />
-              <select id="birthyear" name="birthyear">
-                <option value="y2014">2014</option>
-                <option value="y2015">2015</option>
-                <option value="y2016">2016</option>
-                <option value="y2017">2017</option>
-                <option value="y2018">2018</option>
-                <option value="y2019">2019</option></select
-              ><br /><br />
-              <label for="sixthrow">Län där du och barnet är skrivna:</label
-              ><br />
-              <input
-                type="text"
-                id="region"
-                name="region"
-                value=""
-              /><br /><br />
-              <label for="seventhrow">E-postadress:</label><br />
-              <input type="text" id="email" name="email" value="" /><br /><br />
-              <input type="submit" id="sendform" value="Skicka" />
-            </form>
-          </div>
-        </div>
-      </div>
-      <div class="earsBottom"></div>
-      <div class="footer">
-        <div class="footertemplate">
-          <div class="footergrid1">
-            <div class="imagecontainerfooter">
-              <!-- Länk till kontakt-sidan -->
-              <div class="image1">
-                <a href="form.Html"
-                  ><img
-                    src="../images/mailicon-transparent.png"
-                    alt="mailIcon"
-                    id="footerimage"
-                /></a>
-              </div>
-              <div class="image2">
-                <a href="studenthealth.Html"
-                  ><img
-                    src="../images/healthicon-transparent.png"
-                    alt="healthIcon"
-                    id="footerimage"
-                /></a>
-              </div>
-              <!-- Länk till Facebook -->
-              <div class="image3">
-                <a href="https://facebook.com"
-                  ><img src="../images/fbicon.png" alt="fbIcon" id="footerimage"
-                /></a>
-              </div>
-              <!-- Länk till Twitter -->
-              <div class="image4">
-                <a href="https://twitter.com"
-                  ><img
-                    src="../images/twittericon-transparent.png"
-                    alt="twitterIcon"
-                    id="footerimage"
-                /></a>
-              </div>
-            </div>
-          </div>
-          <div class="footergrid2">
-            <p>Tel: 063-141457</p>
-            <p>Adress: Djurvägen 3</p>
-            <p>Epost: Kontakt@KigurumiSkolan.se</p>
-          </div>
-          <div class="footergrid3"></div>
-          <div class="footergrid4">
-            <p>Jour: 112</p>
-            <p>Rektor: Holger Valross</p>
-            <p>OrgNummer: EnRelevantSiffra</p>
-          </div>
+    </div>
+    <div class="contentBody">
+      <div class="content">
+        <div class="pageContent">
+          <!-- Här är innehållet på sidan-->
+          <h2>Antagningsansökan för nästa skoltermin</h2>
+          <p>
+            Här anmäler du intresse för att ditt barn ska bli elev på Kigurumi
+            Lågstadieskola.
+          </p>
+          <p>
+            Vi på skolan samlar på oss ansökningar inför kommande skoltermin
+            och hör av oss genom e-post till er strax innan det börjar bli
+            dags för skolval för att boka vidare intervju.
+          </p>
+          <p>
+            Eftersom att Kigurumi Lågstadieskola är en mindre, mer personlig
+            skola så tar vi inte emot allt för många elever vid varje
+            terminstart.
+          </p>
+          <p>
+            Det är därför viktigt att du kommunicerar och uttrycker dig väl i
+            beskrivningen av ditt barn samt dig själv som förälder i
+            ansökningen.
+          </p>
+          <p>
+            Finner vi att du och ditt barn platsar så går man sedan vidare
+            genom: <a href="https://mittskolval.se/">mittskolval.se.</a>
+          </p>
+          <form>
+            <label for="firstrow">Beskriv ditt barn och vad hen skulle tillföra till skolans
+              unika miljö:</label><br />
+            <textarea id="childdescription"></textarea><br /><br />
+            <label for="secondrow">Beskriv dig själv som förälder och varför du anser att Kigurumi
+              Lågstadieskola är rätt plats för ditt barn:</label><br />
+            <textarea id="parentdescription"></textarea><br /><br />
+            <label for="thirdrow">Ditt namn:</label><br />
+            <input type="text" id="name" name="name" value="" /><br /><br />
+            <label for="fourthrow">Barnets namn:</label><br />
+            <input type="text" id="childName" name="childName" value="" /><br /><br />
+            <label for="fifthrow">Barnets födelseår:</label><br />
+            <select id="birthyear" name="birthyear">
+              <option value="y2014">2014</option>
+              <option value="y2015">2015</option>
+              <option value="y2016">2016</option>
+              <option value="y2017">2017</option>
+              <option value="y2018">2018</option>
+              <option value="y2019">2019</option>
+            </select><br /><br />
+            <label for="sixthrow">Län där du och barnet är skrivna:</label><br />
+            <input type="text" id="region" name="region" value="" /><br /><br />
+            <label for="seventhrow">E-postadress:</label><br />
+            <input type="text" id="email" name="email" value="" /><br /><br />
+            <input type="submit" id="sendform" value="Skicka" />
+          </form>
         </div>
       </div>
     </div>
-  </body>
+    <div class="earsBottom"></div>
+    <div class="footer">
+      <div class="footertemplate">
+        <div class="footergrid1">
+          <div class="imagecontainerfooter">
+            <!-- Länk till kontakt-sidan -->
+            <div class="image1">
+              <a href="../html/form.Html"><img src="../images/mailicon-transparent.png" alt="mailIcon"
+                  id="footerimage" /></a>
+            </div>
+            <!-- !!Länk till Elevhälsan ??  
+                            Ändra mig!
+                        -->
+            <div class="image2">
+              <a href="../html/studenthealth.Html"><img src="../images/healthicon-transparent.png" alt="healthIcon"
+                  id="footerimage" /></a>
+            </div>
+            <!-- Länk till Facebook -->
+            <div class="image3">
+              <a href="../https://facebook.com"><img src="../images/fbicon.png" alt="fbIcon" id="footerimage" /></a>
+            </div>
+            <!-- Länk till Twitter -->
+            <div class="image4">
+              <a href="../https://twitter.com"><img src="../images/twittericon-transparent.png" alt="twitterIcon"
+                  id="footerimage" /></a>
+            </div>
+          </div>
+        </div>
+        <div class="footergrid2">
+          <p>Tel: 063-141457</p>
+          <p>Adress: Djurvägen 3</p>
+          <p>Epost: Kontakt@KigurumiSkolan.se</p>
+        </div>
+        <div class="footergrid3"></div>
+        <div class="footergrid4">
+          <p>Jour: 112</p>
+          <p>Rektor: Holger Valross</p>
+          <p>OrgNummer: EnRelevantSiffra</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
