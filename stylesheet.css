@@ -303,43 +303,43 @@ textarea {
   grid-template-rows: 1fr;
   display: grid;
 }
-#personnelImages {
+.personnelImages {
   width: 250px;
   height: 250px;
   border: 2px solid black;
   border-radius: 25%;
 }
-#personnelFigure1 {
+.personnelFigure1 {
   grid-column-start: 1;
   grid-column-end: 1;
   grid-row-start: 1;
   grid-row-end: 1;
 }
-#personnelFigure2 {
+.personnelFigure2 {
   grid-column-start: 2;
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 1;
 }
-#personnelFigure3 {
+.personnelFigure3 {
   grid-column-start: 3;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 1;
 }
-#personnelFigure4 {
+.personnelFigure4 {
   grid-column-start: 1;
   grid-column-end: 1;
   grid-row-start: 2;
   grid-row-end: 2;
 }
-#personnelFigure5 {
+.personnelFigure5 {
   grid-column-start: 2;
   grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 2;
 }
-#personnelFigure6 {
+.personnelFigure6 {
   grid-column-start: 3;
   grid-column-end: 3;
   grid-row-start: 2;
