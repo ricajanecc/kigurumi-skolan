@@ -500,7 +500,6 @@ div.bisk {
   cursor: pointer;
   font-family: "Times New Roman", Times, serif;
   transition: ease-in-out all 300ms;
-  
 }
 .laroplan-button:hover {
   background-color: #e57b1d;
@@ -611,8 +610,9 @@ span {
 #matschema {
   text-align: center;
 }
-#parent {
+.parent {
   width: 300px;
+
   margin: 0 auto;
 }
 #form_login {
@@ -655,7 +655,7 @@ span {
   contain: content;
   height: 100%;
 }
-#lineLamp {
+.lineLamp {
   width: 50px;
   height: 50px;
   float: left;
