@@ -150,9 +150,7 @@ a {
 a:hover {
   color: blue;
 }
-a:active {
-  background-color: white;
-}
+
 #oldies {
   border-radius: 30%;
   border: black;
