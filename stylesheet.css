@@ -434,123 +434,6 @@ div.bisk {
   }
 }
 /* slut på Dialas sidor */
-/* Rojhats kod */
-.textbackgroundFood {
-  background-color: wheat;
-}
-.covidpicclass {
-  color: #111;
-  border-radius: 50%;
-  text-align: center;
-  font-size: 90px;
-  float: left;
-  shape-outside: ellipse();
-  padding: 10px;
-}
-span {
-  padding-top: 60px;
-  display: inline-block;
-}
-#covidText {
-  word-wrap: normal;
-}
-#kiguImageFood {
-  width: 800px;
-  height: 500px;
-  margin: auto auto auto 100px;
-}
-#covidKidImage {
-  width: 800px;
-  height: 500px;
-  border-radius: 50%;
-}
-#newsHeader {
-  text-align: center;
-} /* Grid template systemet för aktuella sidan */
-.contentgridtemplate {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  contain: content;
-  height: 100%;
-  width: 100%;
-}
-.contentgrid1 {
-  grid-column-start: 1;
-  grid-column-end: 1;
-  grid-row-start: 1;
-  grid-row-end: 1;
-  margin-left: 15px;
-
-  contain: content;
-}
-.contentgrid2 {
-  grid-row: 2;
-  grid-column-start: 1;
-
-  contain: content;
-}
-.contentgrid3 {
-  grid-row: 2;
-  grid-column-start: 2;
-  contain: content;
-}
-.contentgrid4 {
-  grid-column-start: 2;
-  grid-column-end: 2;
-  contain: content;
-  text-align: left;
-}
-#tänk {
-  text-align: center;
-}
-#matschema {
-  text-align: center;
-}
-.contentgrid5 {
-  z-index: 2;
-  grid-column-start: 1;
-  grid-row-start: 1;
-  grid-row-end: 3;
-  border-right: 2px solid;
-}
-.contentgrid6 {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row: 1;
-  contain: content;
-}
-.contentgrid7 {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  contain: content;
-  height: 100%;
-}
-#lineLamp {
-  width: 50px;
-  height: 50px;
-  float: left;
-  margin-right: 1rem;
-}
-
-/* Bild formatet för aktuella hemsidan */
-#bentobox {
-  align-content: right;
-  border-radius: 20%;
-  height: 200px;
-  width: 400px;
-  margin: 20px auto auto 40px;
-}
-#bentobox2 {
-  align-content: right;
-  border-radius: 20%;
-  height: 200px;
-  width: 400px;
-  margin: 20px auto auto 50px;
-}
-
-/*Rojhats kod */
 
 /*Ricas kod*/
 
@@ -652,3 +535,147 @@ text-container {
 }
 
 /*slut på Ricas kod*/
+/* Rojhats kod */
+.textbackgroundFood {
+  background-color: wheat;
+}
+.covidpicclass {
+  color: #111;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 90px;
+  float: left;
+  shape-outside: ellipse();
+  padding: 10px;
+}
+span {
+  padding-top: 60px;
+  display: inline-block;
+}
+#covidText {
+  word-wrap: normal;
+}
+#kiguImageFood {
+  width: 800px;
+  height: 500px;
+  margin: auto auto auto 100px;
+}
+#covidKidImage {
+  width: 800px;
+  height: 500px;
+  border-radius: 50%;
+}
+#newsHeader {
+  text-align: center;
+} /* Grid template systemet för aktuella sidan */
+.contentgridtemplate {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  contain: content;
+  height: 100%;
+  width: 100%;
+}
+.contentgrid1 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  margin-left: 15px;
+
+  contain: content;
+}
+.contentgrid2 {
+  grid-row: 2;
+  grid-column-start: 1;
+
+  contain: content;
+}
+.contentgrid3 {
+  grid-row: 2;
+  grid-column-start: 2;
+  contain: content;
+}
+.contentgrid4 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  contain: content;
+  text-align: left;
+}
+#tänk {
+  text-align: center;
+}
+#matschema {
+  text-align: center;
+}
+#parent {
+  width: 300px;
+  margin: 0 auto;
+}
+#form_login {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+#kiguFrontPic {
+  height: 600px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#logo {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border: black;
+  border-style: solid;
+}
+.contentgrid5 {
+  z-index: 2;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  border-right: 2px solid;
+}
+.contentgrid6 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row: 1;
+  contain: content;
+}
+.contentgrid7 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  contain: content;
+  height: 100%;
+}
+#lineLamp {
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-right: 1rem;
+}
+
+/* Bild formatet för aktuella hemsidan */
+#bentobox {
+  align-content: right;
+  border-radius: 20%;
+  height: 200px;
+  width: 400px;
+  margin: 20px auto auto 40px;
+}
+#bentobox2 {
+  align-content: right;
+  border-radius: 20%;
+  height: 200px;
+  width: 400px;
+  margin: 20px auto auto 50px;
+}
+.employeesCenterd {
+  align-items: center;
+}
+
+/*Rojhats kod */
