@@ -200,7 +200,7 @@ a:hover {
   grid-row-end: 1;
   height: 50px;
   width: 50px;
-  content: contain;
+
   margin: auto 10px auto auto;
 }
 .image2 {
@@ -211,7 +211,7 @@ a:hover {
   height: 50px;
   width: 50px;
   float: right;
-  content: contain;
+
   margin: auto auto auto 10px;
 }
 .image3 {
@@ -221,7 +221,7 @@ a:hover {
   grid-row-end: 2;
   height: 50px;
   width: 50px;
-  content: contain;
+
   margin: auto 10px auto auto;
 }
 .image4 {
@@ -231,7 +231,7 @@ a:hover {
   grid-row-end: 2;
   height: 50px;
   width: 50px;
-  content: contain;
+
   margin: auto auto auto 10px;
 }
 .footergrid2 {
@@ -664,14 +664,12 @@ span {
 
 /* Bild formatet för aktuella hemsidan */
 #bentobox {
-  align-content: right;
   border-radius: 20%;
   height: 200px;
   width: 400px;
   margin: 20px auto auto 40px;
 }
 #bentobox2 {
-  align-content: right;
   border-radius: 20%;
   height: 200px;
   width: 400px;
