@@ -270,7 +270,9 @@ textarea {
 }
 #message,
 #childdescription,
-#parentdescription {
+#parentdescription,
+#privatedescription,
+#professionaldescription{
   height: 150px;
 }
 #reason,
