@@ -559,10 +559,12 @@ span {
   width: 800px;
   height: 500px;
   margin: auto auto auto 100px;
+  border-radius: 20%;
+  border: solid 2px black;
 }
 #covidKidImage {
-  width: 800px;
-  height: 500px;
+  width: 400px;
+  height: 250px;
   border-radius: 50%;
 }
 #newsHeader {
