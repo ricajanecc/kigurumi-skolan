@@ -540,6 +540,7 @@ text-container {
 /* Rojhats kod */
 .textbackgroundFood {
   background-color: wheat;
+ border: solid 2px black;
 }
 .covidpicclass {
   color: #111;
