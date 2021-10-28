@@ -559,6 +559,9 @@ span {
   border-radius: 20%;
   border: solid 2px black;
 }
+.IndexFrontText {
+  text-align: center;
+}
 #covidKidImage {
   width: 400px;
   height: 250px;
